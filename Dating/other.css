@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: #581112;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+  }
+
+  #saveBtn, #stayTogether {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffc9de;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #saveBtn:hover, #stayTogether:hover {
+    background-color: #b65c74;
+    transform: scale(1.1);
+  }
+
+  #saveBtn {
+    background-color: #9c4b61;
+  }
+  
+  #stayTogether {
+    background-color: #9c4b61;
+  }
+
+  nav {
+    border-top: 4px solid #661232;
+    padding: 10px;
+    background-color: #853941;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: #d9305c;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #d9305c;
+    color: #5c2222;
+  }
+/* Increase font size for posts */
+.post {
+  font-size: 20px;
+}
