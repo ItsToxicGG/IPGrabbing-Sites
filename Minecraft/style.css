@@ -1,0 +1,76 @@
+/* Define font styles */
+@font-face {
+    font-family: 'Minecraft';
+    src: url('minecraft-font.woff2') format('woff2'),
+         url('minecraft-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Define colors */
+  :root {
+    --mc-black: #1c1c1c;
+    --mc-green: #55c55e;
+    --mc-brown: #8b572a;
+  }
+  
+  /* Define general layout styles */
+  body {
+    background-color: var(--mc-black);
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Define header styles */
+  header {
+    background-color: var(--mc-brown);
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  nav a:hover {
+    background-color: var(--mc-green);
+  }
+  
+  /* Define main content styles */
+  main {
+    padding: 1rem;
+  }
+  
+  /* Define footer styles */
+  footer {
+    background-color: var(--mc-brown);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Define copyright notice styles */
+  .copyright {
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: 1rem;
+  }
+  
