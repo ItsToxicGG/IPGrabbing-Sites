@@ -1,5 +1,5 @@
 # IPGrabbing-Sites
-IPGrabbingSites
+IPGrabbingSites - Educational Purpose Only!
 # SQL-Code
 
 RickRoll:
