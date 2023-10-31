@@ -1,4 +1,5 @@
 # IPGrabbing-Sites
+Why use ipgrabber, since now a days that can be easily reconigseable, try out this, quickly ipgrab a person without them evens thinking its an ipgrabber site. I made this off of me being board..
 IPGrabbingSites - Educational Purpose Only!
 # SQL-Code
 
